@@ -14,6 +14,8 @@ int main(){
 	cin >> height;
 	cout << "Enter weight:";
 	cin >> weight;
+
+	BMI Student_1(name, height, weight);
 	return 0;
 }
 

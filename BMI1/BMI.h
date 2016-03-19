@@ -10,8 +10,11 @@ class BMI{
 public:
 	//DEFAULT CONSTRUCTOR
 	BMI();
+	//overload constructor
+	BMI(string, int, double);
 
-
+	//destructor
+	~BMI();
 private:
 	//MEMBER VARIABLES
 	string newname;
