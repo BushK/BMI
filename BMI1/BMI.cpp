@@ -9,6 +9,15 @@ BMI::BMI(string name, int height, double weight){
 	newheight = height;
 	newweight = weight;
 }
-BMI::BMI(){
+BMI::~BMI(){
+
+}
+string BMI::getName(){
+
+}
+int BMI::getHeight(){
+
+}
+double BMI::getWeight(){
 
 }

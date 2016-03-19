@@ -15,6 +15,14 @@ public:
 
 	//destructor
 	~BMI();
+
+	//accesor functions 
+	string getName();
+	//rreturns patients name
+	int getHeight();
+	//RETUNS height of patients
+	double getWeight();
+	//returns weight of patients
 private:
 	//MEMBER VARIABLES
 	string newname;

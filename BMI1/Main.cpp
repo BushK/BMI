@@ -1,6 +1,6 @@
 #include<iostream>
 #include <string>
-
+#include "BMI.h"
 using namespace std;
 
 int main(){
@@ -14,8 +14,8 @@ int main(){
 	cin >> height;
 	cout << "Enter weight:";
 	cin >> weight;
-
 	BMI Student_1(name, height, weight);
+
 	return 0;
 }
 
