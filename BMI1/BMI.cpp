@@ -13,11 +13,11 @@ BMI::~BMI(){
 
 }
 string BMI::getName(){
-
+	return newname;
 }
 int BMI::getHeight(){
-
+	return newheight;
 }
 double BMI::getWeight(){
-
+	return newweight;
 }

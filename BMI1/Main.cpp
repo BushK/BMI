@@ -16,6 +16,9 @@ int main(){
 	cin >> weight;
 	BMI Student_1(name, height, weight);
 
+	cout << endl << "Enter name: " << Student_1.getName() << endl
+		<< "Enter name: " << Student_1.getHeight() << endl
+		<< "Enter name: " << Student_1.getWeight() << endl;
 	return 0;
 }
 
