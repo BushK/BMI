@@ -21,3 +21,12 @@ int BMI::getHeight(){
 double BMI::getWeight(){
 	return newweight;
 }
+void BMI::setName(string name){
+	newname = name;
+}
+void BMI::setHeight(int height){
+newheight = height;
+}
+void BMI::setWeight(double weight){
+	newweight = weight;
+}

@@ -23,6 +23,14 @@ public:
 	//RETUNS height of patients
 	double getWeight();
 	//returns weight of patients
+
+	//mutator functions
+	void setName(string);
+	//sets patients name
+	void setHeight(int);
+	//sets patients height 
+	void setWeight(double);
+	//sets patients weight
 private:
 	//MEMBER VARIABLES
 	string newname;
